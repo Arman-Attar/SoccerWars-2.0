@@ -5,4 +5,4 @@
  
  2. Cleaned code and made it simpler to read and understand
  
- 3. Revamped the views for a more slik and cleaner UI.
+ 3. Revamped the views for a more slick and cleaner UI.
