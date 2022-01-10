@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2A32B3E27879F3700BB5DB1 /* SoccerWars_2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B3D27879F3700BB5DB1 /* SoccerWars_2_0App.swift */; };
+		C2A32B4227879F3800BB5DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A32B4127879F3800BB5DB1 /* Assets.xcassets */; };
+		C2A32B4527879F3800BB5DB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A32B4427879F3800BB5DB1 /* Preview Assets.xcassets */; };
+		C2A32B522787A0F300BB5DB1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B512787A0F300BB5DB1 /* Player.swift */; };
+		C2A32B542787A18900BB5DB1 /* PlayersDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B532787A18900BB5DB1 /* PlayersDataServices.swift */; };
+		C2A32B562787A31400BB5DB1 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B552787A31400BB5DB1 /* PlayerViewModel.swift */; };
+		C2A32B582787A43B00BB5DB1 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B572787A43B00BB5DB1 /* Menu.swift */; };
+		C2A32B5A2787AF6400BB5DB1 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B592787AF6400BB5DB1 /* Rules.swift */; };
+		C2A32B5C2787AF7B00BB5DB1 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B5B2787AF7B00BB5DB1 /* Play.swift */; };
+		C2A32B5E2787DEEB00BB5DB1 /* RuleSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B5D2787DEEB00BB5DB1 /* RuleSet.swift */; };
+		C2A32B602787DF0B00BB5DB1 /* RulesDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B5F2787DF0B00BB5DB1 /* RulesDataServices.swift */; };
+		C2A32B622787DF2900BB5DB1 /* RuleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B612787DF2900BB5DB1 /* RuleViewModel.swift */; };
+		C2A32B642788DE2100BB5DB1 /* HeaderScoreBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B632788DE2100BB5DB1 /* HeaderScoreBoard.swift */; };
+		C2A32B662789050F00BB5DB1 /* PlayingAreaWithCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B652789050F00BB5DB1 /* PlayingAreaWithCard.swift */; };
+		C2A32B682789063300BB5DB1 /* BottomDeckAndDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B672789063300BB5DB1 /* BottomDeckAndDeal.swift */; };
+		C2A32B6A27890D5500BB5DB1 /* UserWonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B6927890D5500BB5DB1 /* UserWonView.swift */; };
+		C2A32B6E278A655000BB5DB1 /* UserLostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B6D278A655000BB5DB1 /* UserLostView.swift */; };
+		C2A32B70278A65E200BB5DB1 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A32B6F278A65E200BB5DB1 /* DrawView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C208FD4F278A71DD008403B7 /* SoccerWars-2-0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SoccerWars-2-0-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C2A32B3A27879F3700BB5DB1 /* SoccerWars 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SoccerWars 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A32B3D27879F3700BB5DB1 /* SoccerWars_2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerWars_2_0App.swift; sourceTree = "<group>"; };
+		C2A32B4127879F3800BB5DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2A32B4427879F3800BB5DB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2A32B512787A0F300BB5DB1 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C2A32B532787A18900BB5DB1 /* PlayersDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersDataServices.swift; sourceTree = "<group>"; };
+		C2A32B552787A31400BB5DB1 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		C2A32B572787A43B00BB5DB1 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C2A32B592787AF6400BB5DB1 /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		C2A32B5B2787AF7B00BB5DB1 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		C2A32B5D2787DEEB00BB5DB1 /* RuleSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleSet.swift; sourceTree = "<group>"; };
+		C2A32B5F2787DF0B00BB5DB1 /* RulesDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesDataServices.swift; sourceTree = "<group>"; };
+		C2A32B612787DF2900BB5DB1 /* RuleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleViewModel.swift; sourceTree = "<group>"; };
+		C2A32B632788DE2100BB5DB1 /* HeaderScoreBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderScoreBoard.swift; sourceTree = "<group>"; };
+		C2A32B652789050F00BB5DB1 /* PlayingAreaWithCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingAreaWithCard.swift; sourceTree = "<group>"; };
+		C2A32B672789063300BB5DB1 /* BottomDeckAndDeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDeckAndDeal.swift; sourceTree = "<group>"; };
+		C2A32B6927890D5500BB5DB1 /* UserWonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWonView.swift; sourceTree = "<group>"; };
+		C2A32B6D278A655000BB5DB1 /* UserLostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLostView.swift; sourceTree = "<group>"; };
+		C2A32B6F278A65E200BB5DB1 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2A32B3727879F3700BB5DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2A32B3127879F3700BB5DB1 = {
+			isa = PBXGroup;
+			children = (
+				C2A32B3C27879F3700BB5DB1 /* SoccerWars 2.0 */,
+				C2A32B3B27879F3700BB5DB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2A32B3B27879F3700BB5DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2A32B3A27879F3700BB5DB1 /* SoccerWars 2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2A32B3C27879F3700BB5DB1 /* SoccerWars 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				C208FD4F278A71DD008403B7 /* SoccerWars-2-0-Info.plist */,
+				C2A32B4E2787A05E00BB5DB1 /* Views */,
+				C2A32B4D2787A03E00BB5DB1 /* ViewModel */,
+				C2A32B4C2787A03600BB5DB1 /* DataServices */,
+				C2A32B4B2787A03100BB5DB1 /* Model */,
+				C2A32B3D27879F3700BB5DB1 /* SoccerWars_2_0App.swift */,
+				C2A32B4127879F3800BB5DB1 /* Assets.xcassets */,
+				C2A32B4327879F3800BB5DB1 /* Preview Content */,
+			);
+			path = "SoccerWars 2.0";
+			sourceTree = "<group>";
+		};
+		C2A32B4327879F3800BB5DB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2A32B4427879F3800BB5DB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2A32B4B2787A03100BB5DB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2A32B512787A0F300BB5DB1 /* Player.swift */,
+				C2A32B5D2787DEEB00BB5DB1 /* RuleSet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2A32B4C2787A03600BB5DB1 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				C2A32B532787A18900BB5DB1 /* PlayersDataServices.swift */,
+				C2A32B5F2787DF0B00BB5DB1 /* RulesDataServices.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		C2A32B4D2787A03E00BB5DB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C2A32B552787A31400BB5DB1 /* PlayerViewModel.swift */,
+				C2A32B612787DF2900BB5DB1 /* RuleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C2A32B4E2787A05E00BB5DB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2A32B572787A43B00BB5DB1 /* Menu.swift */,
+				C2A32B592787AF6400BB5DB1 /* Rules.swift */,
+				C2A32B5B2787AF7B00BB5DB1 /* Play.swift */,
+				C2A32B632788DE2100BB5DB1 /* HeaderScoreBoard.swift */,
+				C2A32B652789050F00BB5DB1 /* PlayingAreaWithCard.swift */,
+				C2A32B672789063300BB5DB1 /* BottomDeckAndDeal.swift */,
+				C2A32B6927890D5500BB5DB1 /* UserWonView.swift */,
+				C2A32B6D278A655000BB5DB1 /* UserLostView.swift */,
+				C2A32B6F278A65E200BB5DB1 /* DrawView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2A32B3927879F3700BB5DB1 /* SoccerWars 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A32B4827879F3800BB5DB1 /* Build configuration list for PBXNativeTarget "SoccerWars 2.0" */;
+			buildPhases = (
+				C2A32B3627879F3700BB5DB1 /* Sources */,
+				C2A32B3727879F3700BB5DB1 /* Frameworks */,
+				C2A32B3827879F3700BB5DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SoccerWars 2.0";
+			productName = "SoccerWars 2.0";
+			productReference = C2A32B3A27879F3700BB5DB1 /* SoccerWars 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2A32B3227879F3700BB5DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C2A32B3927879F3700BB5DB1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C2A32B3527879F3700BB5DB1 /* Build configuration list for PBXProject "SoccerWars 2.0" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2A32B3127879F3700BB5DB1;
+			productRefGroup = C2A32B3B27879F3700BB5DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A32B3927879F3700BB5DB1 /* SoccerWars 2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2A32B3827879F3700BB5DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A32B4527879F3800BB5DB1 /* Preview Assets.xcassets in Resources */,
+				C2A32B4227879F3800BB5DB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2A32B3627879F3700BB5DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A32B602787DF0B00BB5DB1 /* RulesDataServices.swift in Sources */,
+				C2A32B582787A43B00BB5DB1 /* Menu.swift in Sources */,
+				C2A32B562787A31400BB5DB1 /* PlayerViewModel.swift in Sources */,
+				C2A32B5C2787AF7B00BB5DB1 /* Play.swift in Sources */,
+				C2A32B522787A0F300BB5DB1 /* Player.swift in Sources */,
+				C2A32B5E2787DEEB00BB5DB1 /* RuleSet.swift in Sources */,
+				C2A32B622787DF2900BB5DB1 /* RuleViewModel.swift in Sources */,
+				C2A32B642788DE2100BB5DB1 /* HeaderScoreBoard.swift in Sources */,
+				C2A32B6A27890D5500BB5DB1 /* UserWonView.swift in Sources */,
+				C2A32B70278A65E200BB5DB1 /* DrawView.swift in Sources */,
+				C2A32B6E278A655000BB5DB1 /* UserLostView.swift in Sources */,
+				C2A32B542787A18900BB5DB1 /* PlayersDataServices.swift in Sources */,
+				C2A32B5A2787AF6400BB5DB1 /* Rules.swift in Sources */,
+				C2A32B682789063300BB5DB1 /* BottomDeckAndDeal.swift in Sources */,
+				C2A32B3E27879F3700BB5DB1 /* SoccerWars_2_0App.swift in Sources */,
+				C2A32B662789050F00BB5DB1 /* PlayingAreaWithCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2A32B4627879F3800BB5DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2A32B4727879F3800BB5DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2A32B4927879F3800BB5DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoccerWars 2.0/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SoccerWars-2-0-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.armanattar.SoccerWars-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2A32B4A27879F3800BB5DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoccerWars 2.0/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SoccerWars-2-0-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.armanattar.SoccerWars-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2A32B3527879F3700BB5DB1 /* Build configuration list for PBXProject "SoccerWars 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A32B4627879F3800BB5DB1 /* Debug */,
+				C2A32B4727879F3800BB5DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A32B4827879F3800BB5DB1 /* Build configuration list for PBXNativeTarget "SoccerWars 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A32B4927879F3800BB5DB1 /* Debug */,
+				C2A32B4A27879F3800BB5DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2A32B3227879F3700BB5DB1 /* Project object */;
+}
