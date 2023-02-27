@@ -1,8 +1,9 @@
-# SoccerWars-2.0
- Soccer Wars 2.0 with an updated structure and code.
- 
- 1. Transformed the original coding structure from having all the data and logic in the view file to a MVVM model.
- 
- 2. Cleaned code and made it simpler to read and understand
- 
- 3. Revamped the views for a more slick and cleaner UI.
+# Soccer Wars
+
+A turned based soccer card game against the AI.
+
+[Demo](https://www.armanattar.com/soccer-wars)
+
+## Description
+
+Soccer Wars uses custom playing cards to match up the player against the AI. Each player has a rating attached to them and every turn the player draws a random card followed by a random card by the AI. The higher card then wins the round and get the point. Game continues until players run out of cards.
